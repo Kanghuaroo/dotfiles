@@ -1,4 +1,4 @@
-"Vundle Stuff
+"Vim Plug Stuff
 set nocompatible              " be iMproved, required
 
 call plug#begin('~/.vim/plugged')
@@ -7,6 +7,8 @@ Plug 'tpope/vim-fugitive'	"Git-Wrapper
 Plug 'vim-airline/vim-airline'		"Status Line
 Plug 'vim-airline/vim-airline-themes'	"Themes
 Plug 'ap/vim-css-color'	"Color Preview for CSS
+Plug 'yuezk/vim-js'	"JS Syntax Highlighting
+Plug 'maxmellon/vim-jsx-pretty'	"JSX Syntax Highlighting
 
 "Color Schemes
 Plug 'morhetz/gruvbox'	"Comfy Retro
