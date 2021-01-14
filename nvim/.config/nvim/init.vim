@@ -76,6 +76,7 @@ let g:coc_global_extensions = [
 	\ ]
 set cmdheight=2	"Better Display for messages
 set updatetime=300	"Better diagnostic messages
+let g:python3_host_prog = '/usr/bin/python3'
 
 "NERDTree
 nmap <leader>n :NERDTreeToggle<CR>
