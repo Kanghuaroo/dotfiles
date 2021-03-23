@@ -13,6 +13,7 @@ Plug 'junegunn/fzf.vim'	"FZF vim intergration
 "Intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}	"VSCode Intelligent Autocomplete
 Plug 'OmniSharp/omnisharp-vim'	"C# completion
+Plug 'davisdude/vim-love-docs' 	"LOVE2D api
 
 "NERDTree
 Plug 'preservim/nerdtree'	"File System Explorer
@@ -96,3 +97,4 @@ inoremap <silent><expr> <Tab>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<Tab>" :
       \ coc#refresh()
+

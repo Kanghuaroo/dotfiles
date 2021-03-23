@@ -1,4 +1,16 @@
 {
+
+	"languageserver": {
+        "lua": {
+	    "cwd": "lua_lsp",
+        "command": lua_lsp . "\\bin\lua-language-server.exe",
+	    "args": ["-E", "-e", "LANG=en", "[full path of lua-language-server directory]/main.lua"],
+	    "filetypes": ["lua"],
+	    "rootPatterns": [".git/"]
+        }
+    },
+	 "Lua.diagnostics.disable" : ["lowercase-global"],
+
 	"coc.source.OmniSharp.enable" : true,
 	"coc.source.OmniSharp.triggerCharacters": "."
 
