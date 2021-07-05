@@ -21,13 +21,18 @@ call plug#end()            " required
 " Settings Start "
 """"""""""""""""""
 
+filetype plugin indent on
+set title
 set number
 syntax on			"syntax highlighting
-set tabstop=4		"insert 4 spaces whenever the tab key is pressed
-set shiftwidth=4	"set indentation to 4 spaces
-set autoindent	"start new line at the same indentation level
+
+set tabstop=8
+set softtabstop=8		"insert 8 spaces whenever the tab key is pressed
+set shiftwidth=8	"set indentation to 8 spaces
 set so=5	"Set scroll offset
 
+set noexpandtab
+set autoindent	"start new line at the same indentation level
 set list lcs=tab:\|\ "adds lines (|) where \t chars are
 
 "move  to start/end of line
