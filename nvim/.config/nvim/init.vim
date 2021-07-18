@@ -34,8 +34,8 @@ call plug#end()            " required
 let mapleader = ','	"Sets a leader key
 set number
 syntax on			"syntax highlighting
-set tabstop=4		"insert 4 spaces whenever the tab key is pressed
-set shiftwidth=4	"set indentation to 4 spaces
+set tabstop=8		"insert 4 spaces whenever the tab key is pressed
+set shiftwidth=8	"set indentation to 4 spaces
 set autoindent	"start new line at the same indentation level
 set so=5	"Set scroll offset
 set cursorline	"Highlights current line
