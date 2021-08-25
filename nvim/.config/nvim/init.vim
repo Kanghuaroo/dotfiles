@@ -33,6 +33,7 @@ call plug#end()            " required
 
 let mapleader = ','	"Sets a leader key
 set number
+set relativenumber
 syntax on			"syntax highlighting
 set tabstop=8		"insert 4 spaces whenever the tab key is pressed
 set shiftwidth=8	"set indentation to 4 spaces
