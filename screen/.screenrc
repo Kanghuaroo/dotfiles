@@ -1,7 +1,7 @@
 #turn welcome msg off
 startup_message off
 
-##first window is number 1
+#first window is number 1
 bind c screen 1
 bind ^c screen 1
 bind 0 select 10                                                            
