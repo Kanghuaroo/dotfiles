@@ -9,6 +9,7 @@ screen 1
 
 #256 color
 term screen-256color
+bce on
 
 #status bar
 hardstatus off
