@@ -76,7 +76,6 @@ set background=dark
 
 "Coc Settings
 let g:coc_global_extensions = [
-	\ 'coc-discord-rpc', 
 	\ 'coc-cmake', 
 	\ 'coc-jedi', 
 	\ 'coc-java',

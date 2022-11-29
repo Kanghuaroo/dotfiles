@@ -19,3 +19,5 @@ hardstatus alwayslastline '%{= G}[ %{G}%H %{g}][%= %{= w}%?%-Lw%?%{= R}%n*%f %t%
 #allow scrolling
 termcapinfo xterm*|rxvt*|kterm*|Eterm* ti@:te@
 
+#clear after fullscreen application
+altscreen on
