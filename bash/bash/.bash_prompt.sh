@@ -3,6 +3,8 @@ parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
+case "$TERM" in xterm-color|*-256color) color_prompt=yes;; esac
+
 # Pass the function to the color parser of the terminal to colorize the branch name.
 if [ "$color_prompt" = yes ]; then
     if [[ ${EUID} == 0 ]] ; then
